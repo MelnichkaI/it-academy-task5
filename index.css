@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tours {
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+  background-color: #6ec189;
+}
+
+h1 {
+  text-decoration-line: overline;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+letter-spacing: 2px;
+}
+
+li:nth-child(2) {
+  color: #015005;
+  font-weight: 600;
+  text-decoration: underline #015005 dashed 2px;
+}
+
+li:nth-child(3) {
+  text-decoration: line-through #990202 solid 2px;
+}
+
+li:nth-child(5) {
+  color: #015005;
+  font-weight: 600;
+  text-decoration: underline #015005 dashed 2px;
+}
+
+.title2 {
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0px;
+}
+
+.prague {
+  width: 30%;
+  padding:10px 10px 10px 10px;
+  border: 5px dotted #000000;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  text-align: center;
+  background-color: #fffb1e;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  text-indent: 15px;
+  line-height: 28px;
+}
+
+.paris {
+  width: 30%;
+  padding:10px 10px 10px 10px;
+  border: 5px dashed #000000;
+  margin-left: 750px;
+  text-align: center;
+  background-color: #94aa2a;
+}
+
+.germany {
+  width: 30%;
+  padding:10px 10px 10px 10px;
+  border: 5px dashed #000000;
+  margin-left: 300px;
+  text-align: center;
+  background-color: #6b4897;
+}
+
+.austria {
+  width: 30%;
+  padding:10px 10px 10px 10px;
+  border: 5px dotted #000000;
+  margin-left: 600px;
+  text-align: center;
+  background-color: #e16262;
+}
